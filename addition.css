@@ -1,0 +1,103 @@
+html{
+  scroll-behavior: smooth;
+}
+/* 制作跳转滑动效果 */
+
+
+@font-face {
+  font-family: ziti;
+  src: url("ziti.ttf");
+}
+/* 引入字体 */
+
+
+
+
+
+      /* 以下是导航栏的css效果 */
+     ul{
+       list-style:none;
+       background-color:#e1eeff;
+       text-align: end;
+      }
+
+      
+      ul li {
+       display:inline-block;
+       position:relative;
+
+      }
+      
+      ul li a {
+       padding:20px 45px;
+       display: inline-block;
+       font-family: ziti;
+       text-decoration: none;
+       font-size:25px;
+       font-weight:bold;
+       color:#2b74af;
+      }
+       /* 设置鼠标放到图标上颜色显示 */
+      ul li:hover{
+       background: #a6abc1;
+      }
+
+
+      /* 以下为网站头设置为块状元素 */
+     header{
+         display:block ;}
+    
+      /* 以下为用选择器为留白设置为居中 */
+     div{
+       text-align: center;}
+       
+    .text{text-align: center;}
+      
+
+      /* 以下为第一种留白设置大小空间 */
+   .blank-a{
+     width: 2000px;
+     height:50px}
+
+      /* 以下为第二种留白设置大小空间 */
+   .blank-b{
+        width: 2000px;
+        height: 300px;}
+     
+        /* 以下为每一栏间设置的“栅栏”图片的属性 */
+   .fence{
+     width: 2000px;
+     height: 800px;
+     line-height: 1000px;}
+      
+        /* 以下为照片墙的大小空间 */
+        .wall{
+        width:2000px;
+        height:4000px;}
+
+        /* 以下为“栅栏”设置圆角和阴影 */
+   .fangtu{border-radius: 20px;
+     box-shadow: 20px 20px 20px rgba(0,0,0,0.3);
+        }
+
+
+
+
+
+  /* 以下为标题topic设置字体和位置大小 */
+.topic{font-family:"ziti";
+  text-align: left;
+  font-size: 65px;
+  }
+  
+
+ /* 以下为每个模块的标题设置字体和位置大小 */
+.moudle{
+   text-align: center;
+   font-family: "ziti";
+   font-size: 55px;
+
+} 
+
+
+
